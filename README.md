@@ -41,3 +41,27 @@ Titanic - Machine Learning from Disaster
 
 ## Author
 **Haider Ali**
+
+           -------------------------------------------------------------------
+
+
+## Week 2
+
+### Task 1 - Titanic Survival Prediction using Logistic Regression
+In this task, I built my first machine learning classification model using the Titanic dataset.
+
+#### Steps Performed
+- Removed unnecessary columns
+- Filled missing values
+- Encoded categorical features using `pd.get_dummies()`
+- Split the dataset into training and testing sets
+- Trained a Logistic Regression model
+- Predicted passenger survival
+- Evaluated the model using Accuracy Score and Confusion Matrix
+
+#### Results
+- **Model:** Logistic Regression
+- **Accuracy:** 79.89%
+
+#### Conclusion
+The Logistic Regression model achieved approximately **79.89% accuracy** on the test dataset. It correctly classified most passengers and demonstrated the complete machine learning workflow from preprocessing to model evaluation.
